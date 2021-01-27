@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>magic</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- script jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <div>
+      <label for="powerSelect">Filtra per potere</label>
+      <select id="powerSelect" name="powerSelect">
+        <option>-- SCEGLI VALORE POTERE</option>
+      </select>
+    </div>
+    
+    <div>
+      <label for="cardTypeSelect">Filtra per tipo di carta</label>
+      <select name="powerSelect" id="cardTypeSelect">
+        <option>-- SCEGLI TIPO CARTA</option>
+      </select>
+    </div>
+
+    <div>
+      <button id="reset">Resetta la lista</button>
+    </div>
+    
+    <ul id="listaCarte"></ul>
+    
+    <!-- script js -->
+    <script src="js/script.js" charset="utf-8"></script>
+  
+  </body>
+</html>
